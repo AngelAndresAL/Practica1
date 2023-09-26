@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>
+                Detalles de la foto
+            </legend>
+            <table>
+                <tr>
+                    <td colspan='2'>
+                        <label for="title">Título</label><br />
+                        <input type='text' name='title' size='65' value="" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2'>
+                        <label for="descripcion">Descripción</label><br />
+                        <textarea rows='6' cols='70'></textarea><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='continente'>Continente</label><br />
+                        <select name='continente'>
+                            <option value='selectContinent'>Escoger continente</option>
+                            <option value='africa'>Africa</option>
+                            <option value="asia">Asia</option>
+                            <option value='europa'>Europa</option>
+                            <option value='nortAme'>Norte América</option>
+                            <option value='surAme'>Sur América</option>
+                        </select>
+                    </td>
+                    <td rowspan="3">
+                        <label for="copyright">Copyright?</label><br />
+                        <input type="radio" name="copyrigth">Todos los derechos reservados <br />
+                        <input type="radio" name="copyrigth">Creative Commons Licencias Creative Commons <br />
+                        <input type="checkbox">Atribución <br />
+                        <input type="checkbox">No comercial <br />
+                        <input type="checkbox">No hay trabajos derivativos <br />
+                        <input type="checkbox">Compartir por igual <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='pais'>País</label><br />
+                        <select name='pais'>
+                            <option value='pais'>País</option>
+                            <option value="canada">Canda</option>
+                            <option value='mexico'>México</option>
+                            <option value='estadosUnidos'>Estados Unidos</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ciudad">Ciudad</label><br />
+                        <input id='campoEntrada' type='text' size="35" list='dataListCiudad'>
+                        <datalist id='dataListCiudad'>
+                            <option value="Calgary"></option>
+                            <option value="Montreal"></option>
+                            <option value="Toronto"></option>
+                            <option value="Tlaxcala"></option>
+                        </datalist>&#160;&#160;&#160;&#160;&#160;&#160;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="licenciaSoftware">Acepto la licencia de software</label>
+                        <input type="checkbox" name="aceptLicence">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="calificacionFoto">Califica esta foto:<label><br />
+                        <input type="number" />
+                    </td>
+                    <td>
+                        <label for="fechaToma">Fecha de toma:</label><br />
+                        <input type="date"> <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="coleccionColor">Colección de color:</label><br />
+                        <input type="color"> <br />
+                    </td>
+                    <td>
+                        <label for="horaToma">Hora de toma:</label><br />
+                        <input type="time"><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button">Enviar</button>
+                    </td>
+                    <td>
+                        <button type="reset">Limpiar</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
