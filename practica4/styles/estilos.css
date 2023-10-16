@@ -1,0 +1,65 @@
+.rectangulo-rojo {
+    background-color: rgba(255, 0, 0, 0.7); 
+    height: 75px;
+    border-color: red;
+    border: 5px solid transparent;
+}
+
+.rectangulo-naranja {
+    background-color: rgba(255, 165, 0, 0.7); 
+    height: 400px;
+    border: 5px solid transparent;
+    border-color: orange;
+}
+
+.rectangulo-azul{
+    background-color: rgba(0, 0, 255, 0.7); 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid transparent;
+    border-color: blue;
+}
+
+.rectangulo-grande {
+    background-color: rgb(255, 255, 255); 
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid transparent;
+    border-color: white;
+}
+
+.rectangulo-mediano-uno {
+    background-color: rgb(0, 104, 9, 0.5); 
+    height: 50%;
+    width: 100%;
+    border: 5px solid transparent;
+    border-color: green;
+}
+
+.rectangulo-mediano-dos {
+    background-color: rgb(30, 255, 0, 0.5); 
+    height: 50%;
+    width: 100%;
+    border: 5px solid transparent;
+    border-color: lime;
+}
+
+.rectangulo-gris {
+    background-color: rgba(70, 70, 70, 0.7); 
+    height: 400px;
+    border: 5px solid transparent;
+    border-color: gray;
+}
+
+.rectangulo-negro {
+    background-color: rgba(0, 0, 0, 0.7); 
+    height: 100px;
+    border: 5px solid transparent;
+    border-color: black;
+}
