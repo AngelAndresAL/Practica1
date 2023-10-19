@@ -1,0 +1,57 @@
+html {
+    background-image: url(../images/art-background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 100%;
+}
+
+header {
+    background-color: white;    
+    padding: 1rem 6rem 2rem 1rem;            
+    margin-left: 15vh;         
+    display: inline-block; 
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: six caps;
+}
+
+article{
+    margin-top: 20vh; 
+    width: 40rem;         
+    margin-left: 15vh;  
+    display: block;  
+    font-size: 2rem;    
+}
+
+article h2{
+    padding: 2rem 2rem 2rem 1rem; 
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1{
+    padding: 1rem 1rem 1rem 1rem; 
+    font-size: 37px;
+}
+
+.caja{
+    width: 60%;
+    margin-left: 1rem; 
+    margin-bottom: 2%;
+    padding: 1rem 3rem 2rem 1rem; 
+    background-color: rgba(59, 59, 59);
+    color: white;
+}
+
+footer{
+    background-color: white;
+    padding: 2rem 2rem 2rem 2rem; 
+}
