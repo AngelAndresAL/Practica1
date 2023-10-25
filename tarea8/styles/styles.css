@@ -1,0 +1,244 @@
+body {
+  font-family: Arial, Helvetica,sans-serif;
+  background-color: white;
+}
+
+h2 {
+  padding: 20px 20px 40px 0;
+  font-size: 30px;
+}
+
+header {
+  background-color: #3f9fd9;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 50px 0 100px;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#box {
+  display: flex;
+  justify-content: start;
+  border: none;
+}
+
+#railLeft {
+  flex: 1;
+  position: relative;
+  order: -1;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+}
+
+.alertLeft {
+  background-color: #edebe1;
+  padding: 20px;
+  position: relative;
+  top: 2px;
+  left: 0;
+  width: 220px;
+  color: #817B58;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border: 1px #EDEDED solid;
+}
+
+#railLeft .great {
+  background-color: #F5F5F5;
+  padding: 10px 20px;
+  width: 220px;
+  border: 1px #EDEDED solid;
+}
+
+#railLeft nav {
+  background-color: #F5F5F5;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  width: 220px;
+  font-size: 20px;
+  border: 1px #EDEDED solid;
+}
+
+#railLeft nav li {
+  margin: 8px 0 8px 0;
+}
+
+#railLeft .great #recentMessageList {
+  width: 230px;
+  background-color: white;
+}
+
+#railLeft .great #recentMessageList ul {
+  display: flex;
+  margin: 100px;
+}
+
+#railLeft .great li span {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  padding: 10px;
+}
+
+#railLeft .great li p {
+  padding: 20px 0 0 20px;
+  display: inline-block;
+}
+
+#railLeft .great h3 {
+  font-weight: bold;
+  color: black;
+  background-color: #B6D1F2;
+  padding: 15px;
+  width: 200px;
+}
+
+#middle {
+  flex: 3.2;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+
+#middle .breadcrumb {
+  background-color: #FBFBFB;
+  padding: 5px;
+  position: relative;
+  top: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#company, #clientInfo {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  width: 49.5%;
+  justify-content: space-between;
+}
+
+#company h4, #clientInfo h4 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#middle hr {
+  border: 1px #9A9A9A solid;
+  margin: 25px 0 15px 0;
+  width: 95%;
+}
+
+#middle table {
+  width: 98%;
+  border-collapse: collapse;
+}
+
+#middle table th, #middle table td {
+  padding: 10px;
+  text-align: start;
+  vertical-align: middle;
+}
+
+.SendButton {
+  display: block;
+  background-color: #3F9FD9;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+aside {
+  flex: 1;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  top: 4px;
+  width: 400px;
+}
+
+aside .great {
+  background-color: #F5F5F5;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  width: 234px;
+  border: 1px #EDEDED solid;
+}
+
+aside h3 {
+  font-weight: bold;
+  color: black;
+  background-color: #B6D1F2;
+  padding: 15px;
+  width: 210px;
+}
+
+#chList {
+  width: 240px;
+  background-color: white;
+}
+
+#chList .chNumber {
+  font-size: 35px;
+  font-weight: none;
+  color: #61646B;
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  padding: 5px 30px 5px 0;
+}
+
+#chList li p {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#sellList {
+  width: 230px;
+  background-color: white;
+  padding: 20px 0 20px 10px;
+}
+
+.boxBook {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px 10px 10px;
+}
+
+.bookTitle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 147px;
+  font-size: 13.5px;
+}
