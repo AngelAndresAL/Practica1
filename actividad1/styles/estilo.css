@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos para secciones */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#menu {
+    text-align: center;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; /* Espacio entre los botones */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el área de texto */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de registro */
+#botonRegistro {
+    background-color: #28a745;
+}
+
+#botonRegistro:hover {
+    background-color: #1e7e34;
+}
+
+/* Estilos para el botón de mostrar estudiantes */
+#boton2 {
+    background-color: #ffc107;
+}
+
+#boton2:hover {
+    background-color: #d39e00;
+}
+
+/* Estilos para el botón de promedio */
+#boton3 {
+    background-color: #17a2b8;
+}
+
+#boton3:hover {
+    background-color: #138496;
+}
+

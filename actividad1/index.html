@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Ejemplo</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+
+    <section id="menu">
+
+        <h1>Menu</h1>
+
+        <button id="botonRegistro">Registro de estudiantes</button>
+
+        <button id="boton2">Mostrar estudiantes</button>
+
+        <button id="boton3">Promedio</button>
+
+    </section>
+
+    <section id="registro">
+        <h1>Registro de estudiantes</h1>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" required><br><br>
+
+            <label for="Edad">Edad:</label>
+            <input type="Edad" id="Edad" required><br><br>
+
+            <label for="Grado">Grado:</label>
+            <input type="text" id="Grado" required><br><br>
+
+            <label for="Califaciones">Califaciones:</label>
+            <input type="text" id="Califaciones" required><br><br>
+    </section>
+
+    <section id="mostrar">
+        <h1>Lista de estudiantes</h1>
+        <textarea id="listaEstudiantes" rows="10" cols="40"></textarea>
+    </section>
+
+    <section id="promedio">
+        <h1>Promedio del estudiante</h1>
+        <input type="text" id="nombrePromedio" required>
+        <input type="text" id="promedioEstudiantes" disabled>
+    </section>
+</body>
+
+</html>
