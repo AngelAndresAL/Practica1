@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.contenedor-juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-rompecabezas {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+.casilla {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #333;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.casilla-vacia {
+    background-color: #ffffff;
+    border: none;
+}
+
+#informacion-juego {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e74c3c; /* Color de fondo para el contador, temporizador y contenedor de botón */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#temporizador,
+#contador-movimientos {
+    margin: 0 10px; /* Espaciado aumentado entre el texto */
+    color: #fff;
+}
+
+#boton-iniciar {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-iniciar:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
